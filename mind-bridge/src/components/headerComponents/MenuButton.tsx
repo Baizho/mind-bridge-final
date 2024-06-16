@@ -68,6 +68,7 @@ const MenuButton = (props: Props) => {
                     <Link
                       href={`/${info.name}`}
                       className="flex h-[30px] items-center gap-x-4 w-full hover:scale-105"
+                      onClick={() => handleClick()}
                     >
                       <Image
                         src={info.src}
