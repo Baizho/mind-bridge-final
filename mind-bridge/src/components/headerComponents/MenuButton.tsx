@@ -48,11 +48,13 @@ const MenuButton = (props: Props) => {
   };
   return (
     <>
-      <button onClick={handleClick}>
+      <button
+        onClick={handleClick}
+        className="h-[30px] w-[30px] md:h-[50px] md:w-[50px]"
+      >
         <Image
           src={menuSrc}
           alt="menu-button"
-          width={45}
           className="hover:scale-105"
         ></Image>
       </button>

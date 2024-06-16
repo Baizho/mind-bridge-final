@@ -8,7 +8,7 @@ type Props = {};
 
 const appPage = (props: Props) => {
   return (
-    <div>
+    <div className="min-h-screen">
       <div className="p-6">
         <div className="w-2/3 text-4xl text-mind-blue font-bold">
           Прототип приложения
