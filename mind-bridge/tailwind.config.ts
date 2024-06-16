@@ -18,7 +18,7 @@ const config: Config = {
         offside: ['Offside'],
         kadwa: ['Kadwa'],
         khula: ['Khula'],
-        kiwimaru:['"Kiwi Maru'],
+        kiwimaru:['"Kiwi Maru"'],
       }
     },
   },
