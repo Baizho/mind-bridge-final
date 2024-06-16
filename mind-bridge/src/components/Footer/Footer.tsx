@@ -17,7 +17,7 @@ const Footer = (props: Props) => {
           <Image src={logoSrc} alt="logo" width={150} height={150}></Image>
         </div>
         <div className="grid md:grid-cols-2 sm:grid-cols-1 w-2/3">
-          <div className="flex flex-col w-1/3 h-[200px] min-w-[200px] items-center justify-center">
+          <div className="flex flex-col h-[200px] w-full items-center justify-center ">
             <div className="h-[160px] flex flex-col items-center">
               <div className="text-center font-kadwa font-bold text-white text-4xl">
                 Contact us
@@ -37,7 +37,7 @@ const Footer = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-1/3 h-[200px] min-w-[200px] items-center justify-center">
+          <div className="flex flex-col w-full  h-[200px]  items-center justify-center">
             <div className="h-[160px] flex flex-col items-center">
               <div className="text-center font-kadwa font-bold text-white text-4xl">
                 Social Media
