@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import MenuButton from "./headerComponents/MenuButton";
+import MenuButton from "./MenuButton";
 
-import logoSrc from "../../public/logo.png";
-import homeSrc from "../../public/homeButton.png";
+import homeSrc from "../../../public/homeButton.png";
+import logoSrc from "../../../public/logo.png";
 
 type Props = {};
 
 const Header = (props: Props) => {
   return (
     <div className="bg-mind-blue h-20 flex items-center justify-between">
-      <div className="flex items-center">
+      <div className="flex items-center gap-4 ml-8 h-full">
         <Image
           src={logoSrc}
           width={50}
           height={50}
           alt="logo"
-          className="ml-8 mr-8"
+          className="border-[3px] border-eclipse-purple rounded-full"
         ></Image>
         <div className="text-white text-3xl font-bold ">MindBridge</div>
       </div>

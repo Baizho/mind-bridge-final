@@ -10,7 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         'mind-blue': '#293991',
+        'eclipse-purple': '#A7B4FF'
       },
+      fontFamily: {
+        markazi: ['"Markazi Text"'],
+        offside: ['Offside'],
+        kadwa: ['Kadwa']
+      }
     },
   },
   plugins: [],
