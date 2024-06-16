@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         'mind-blue': '#293991',
         'mind-blue-light': '#293991D9',
-        'eclipse-purple': '#A7B4FF'
+        'eclipse-purple': '#A7B4FF',
       },
       fontFamily: {
         markazi: ['"Markazi Text"'],
