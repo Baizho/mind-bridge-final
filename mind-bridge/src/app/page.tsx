@@ -23,7 +23,7 @@ export default function Home() {
                 <Link
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                   target="_blank"
-                  className="w-2/5 min-w-[100px] h-[48px] rounded-full bg-mind-blue flex justify-start items-center px-4 ml-4 gap-x-3"
+                  className="w-2/5 min-w-[100px] h-[48px] rounded-full bg-mind-blue flex justify-start items-center px-4 ml-4 gap-x-3 hover:shadow-lg"
                 >
                   <Image
                     src={playSrc}
