@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className=" min-h-fit">
       <div className="flex justify-center  ">
-        <div className="grid lg:grid-cols-2 w-[90%] min-h-[600px]">
-          <div className="flex flex-col items-center justify-center">
+        <div className="grid lg:grid-cols-2 w-[90%] min-h-[520px] mb-10">
+          <div className="flex flex-col items-center justify-end">
             <div className="w-[600px] h-[500px] flex flex-col gap-8 py-8">
               <div className="text-6xl font-extrabold text-mind-blue font-markazi">
                 MindBridge
@@ -23,7 +23,7 @@ export default function Home() {
                 <Link
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                   target="_blank"
-                  className="w-2/5 min-w-[100px] h-[48px] rounded-full bg-mind-blue flex justify-start items-center px-4 ml-4 gap-x-3 hover:shadow-lg"
+                  className="hover:scale-105 w-2/5 min-w-[100px] h-[48px] rounded-full bg-mind-blue-light flex justify-start items-center px-4 ml-4 gap-x-3 hover:shadow-lg"
                 >
                   <Image
                     src={playSrc}
@@ -37,7 +37,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-end">
             <div className="min-w-[500px] aspect-square bg-gray-300 border-[6px] border-eclipse-purple"></div>
           </div>
         </div>

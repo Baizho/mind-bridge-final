@@ -10,7 +10,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div className="bg-mind-blue h-20 flex items-center justify-between">
+    <div className="bg-mind-blue h-20 flex items-center justify-between relative">
       <div className="flex items-center gap-4 ml-8 h-full">
         <Image
           src={logoSrc}
@@ -27,7 +27,7 @@ const Header = (props: Props) => {
             src={homeSrc}
             alt="home-button"
             width={40}
-            className="mr-8"
+            className="mr-8 hover:scale-105"
           ></Image>
         </Link>
         <div className="mr-6 flex items-center">

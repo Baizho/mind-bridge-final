@@ -12,10 +12,10 @@ const Footer = (props: Props) => {
   return (
     <>
       <div className="flex justify-center w-full bg-mind-blue">
-        <div className="flex flex-col w-1/3 h-[200px] items-center justify-center">
+        <div className="flex flex-col md:w-1/3 w-0 h-[200px] items-center justify-center">
           <Image src={logoSrc} alt="logo" width={150} height={150}></Image>
         </div>
-        <div className="flex flex-col w-1/3 h-[200px] items-center justify-center">
+        <div className="flex flex-col w-1/3 h-[200px] min-w-[200px] items-center justify-center">
           <div className="h-[160px] flex flex-col items-center">
             <div className="text-center font-kadwa font-bold text-white text-4xl">
               Contact us
@@ -35,7 +35,7 @@ const Footer = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-1/3 h-[200px] items-center justify-center">
+        <div className="flex flex-col w-1/3 h-[200px] min-w-[200px] items-center justify-center">
           <div className="h-[160px] flex flex-col items-center">
             <div className="text-center font-kadwa font-bold text-white text-4xl">
               Social Media
